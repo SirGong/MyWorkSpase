@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="book:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0bedd2af-35bf-4a66-b5c7-06b39bc32647" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="jsf" />
+        <option value="Jsp File" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dTqBNZwwtHzkZRRsGtZID4GK8L" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="js.last.introduce.type" value="VAR" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SpringBoot项目\book\web\WEB-INF\lib" />
+      <recent name="E:\SpringBoot项目\book\src\test" />
+      <recent name="E:\SpringBoot项目\book\web" />
+      <recent name="E:\SpringBoot项目\book\src\utils" />
+      <recent name="E:\SpringBoot项目\book\src\service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.book">
+    <configuration name="BookDaoTest.queryBooks" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BookDaoTest" />
+      <option name="METHOD_NAME" value="queryBooks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookDaoTest.queryForPageItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BookDaoTest" />
+      <option name="METHOD_NAME" value="queryForPageItems" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceTest.page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BookServiceTest" />
+      <option name="METHOD_NAME" value="page" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceTest.pageByPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BookServiceTest" />
+      <option name="METHOD_NAME" value="pageByPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderDaoImplTest.saveOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.OrderDaoImplTest" />
+      <option name="METHOD_NAME" value="saveOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderItemDaoImplTest.saveOrderItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.OrderItemDaoImplTest" />
+      <option name="METHOD_NAME" value="saveOrderItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mysql-connector-java-8.0.13.jar" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.13.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="book" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.32" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="book:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/book" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_book_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="12125" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="book:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JAR Application.mysql-connector-java-8.0.13.jar" />
+      <item itemvalue="JUnit.BookDaoTest.queryBooks" />
+      <item itemvalue="JUnit.BookDaoTest.queryForPageItems" />
+      <item itemvalue="JUnit.BookServiceTest.page" />
+      <item itemvalue="JUnit.BookServiceTest.pageByPrice" />
+      <item itemvalue="JUnit.OrderDaoImplTest.saveOrder" />
+      <item itemvalue="JUnit.OrderItemDaoImplTest.saveOrderItem" />
+      <item itemvalue="Tomcat Server.book" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OrderItemDaoImplTest.saveOrderItem" />
+        <item itemvalue="JUnit.OrderDaoImplTest.saveOrder" />
+        <item itemvalue="JUnit.BookServiceTest.pageByPrice" />
+        <item itemvalue="JUnit.BookServiceTest.page" />
+        <item itemvalue="JUnit.BookDaoTest.queryForPageItems" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.11591963" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0bedd2af-35bf-4a66-b5c7-06b39bc32647" name="Default Changelist" comment="" />
+      <created>1592459298596</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592459298596</updated>
+      <workItem from="1592459315000" duration="13475000" />
+      <workItem from="1592557381339" duration="16766000" />
+      <workItem from="1592623607340" duration="10955000" />
+      <workItem from="1592645304078" duration="13474000" />
+      <workItem from="1592664038231" duration="2557000" />
+      <workItem from="1592705839892" duration="7151000" />
+      <workItem from="1592799221431" duration="20103000" />
+      <workItem from="1592882646666" duration="8400000" />
+      <workItem from="1594888057547" duration="1310000" />
+      <workItem from="1595252021117" duration="2621000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="27" key="#Web_Browsers" timestamp="1592719332074">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="27" key="#Web_Browsers/0.0.1366.738@0.0.1366.738" timestamp="1592719332074" />
+    <state x="301" y="24" width="928" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592825962753">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="301" y="24" width="928" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1592825962753" />
+    <state x="492" y="107" key="#com.intellij.ide.util.MemberChooser" timestamp="1592896703751">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="492" y="107" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1592896703751" />
+    <state x="413" y="145" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1592475902034">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="145" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1592475902034" />
+    <state x="462" y="254" width="441" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592718651633">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="462" y="254" width="441" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738@0.0.1366.738" timestamp="1592718651633" />
+    <state x="372" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592474759352">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="372" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738@0.0.1366.738" timestamp="1592474759352" />
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592719070022">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1592719070022" />
+    <state x="391" y="16" key="#mysql-connector-java-8.0.13.jar" timestamp="1592461243118">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="391" y="16" key="#mysql-connector-java-8.0.13.jar/0.0.1366.738@0.0.1366.738" timestamp="1592461243118" />
+    <state x="437" y="239" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1592558161422">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="437" y="239" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.738@0.0.1366.738" timestamp="1592558161422" />
+    <state x="357" y="114" key="FileChooserDialogImpl" timestamp="1594890181585">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="357" y="110" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1592807285998" />
+    <state x="357" y="114" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1594890181585" />
+    <state width="1142" height="86" key="GridCell.Tab.0.bottom" timestamp="1594890206956">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1143" height="191" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1592923129489" />
+    <state width="1142" height="86" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594890206956" />
+    <state width="1142" height="86" key="GridCell.Tab.0.center" timestamp="1594890206956">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1143" height="191" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1592923129489" />
+    <state width="1142" height="86" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1594890206956" />
+    <state width="1142" height="86" key="GridCell.Tab.0.left" timestamp="1594890206955">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1143" height="191" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1592923129489" />
+    <state width="1142" height="86" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1594890206955" />
+    <state width="1142" height="86" key="GridCell.Tab.0.right" timestamp="1594890206956">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1143" height="191" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1592923129489" />
+    <state width="1142" height="86" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1594890206956" />
+    <state width="1142" height="86" key="GridCell.Tab.1.bottom" timestamp="1594890206957">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1143" height="191" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1592923129489" />
+    <state width="1142" height="86" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594890206957" />
+    <state width="1142" height="86" key="GridCell.Tab.1.center" timestamp="1594890206956">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1143" height="191" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1592923129489" />
+    <state width="1142" height="86" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1594890206956" />
+    <state width="1142" height="86" key="GridCell.Tab.1.left" timestamp="1594890206956">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1143" height="191" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1592923129489" />
+    <state width="1142" height="86" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1594890206956" />
+    <state width="1142" height="86" key="GridCell.Tab.1.right" timestamp="1594890206957">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1143" height="191" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1592923129489" />
+    <state width="1142" height="86" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1594890206957" />
+    <state width="1142" height="86" key="GridCell.Tab.2.bottom" timestamp="1594890206957">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1143" height="191" key="GridCell.Tab.2.bottom/0.0.1366.738@0.0.1366.738" timestamp="1592923129490" />
+    <state width="1142" height="86" key="GridCell.Tab.2.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594890206957" />
+    <state width="1142" height="86" key="GridCell.Tab.2.center" timestamp="1594890206957">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1143" height="191" key="GridCell.Tab.2.center/0.0.1366.738@0.0.1366.738" timestamp="1592923129490" />
+    <state width="1142" height="86" key="GridCell.Tab.2.center/0.0.1366.768@0.0.1366.768" timestamp="1594890206957" />
+    <state width="1142" height="86" key="GridCell.Tab.2.left" timestamp="1594890206957">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1143" height="191" key="GridCell.Tab.2.left/0.0.1366.738@0.0.1366.738" timestamp="1592923129490" />
+    <state width="1142" height="86" key="GridCell.Tab.2.left/0.0.1366.768@0.0.1366.768" timestamp="1594890206957" />
+    <state width="1142" height="86" key="GridCell.Tab.2.right" timestamp="1594890206957">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1143" height="191" key="GridCell.Tab.2.right/0.0.1366.738@0.0.1366.738" timestamp="1592923129490" />
+    <state width="1142" height="86" key="GridCell.Tab.2.right/0.0.1366.768@0.0.1366.768" timestamp="1594890206957" />
+    <state width="1142" height="86" key="GridCell.Tab.3.bottom" timestamp="1594890206958">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1143" height="191" key="GridCell.Tab.3.bottom/0.0.1366.738@0.0.1366.738" timestamp="1592923129490" />
+    <state width="1142" height="86" key="GridCell.Tab.3.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594890206958" />
+    <state width="1142" height="86" key="GridCell.Tab.3.center" timestamp="1594890206958">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1143" height="191" key="GridCell.Tab.3.center/0.0.1366.738@0.0.1366.738" timestamp="1592923129490" />
+    <state width="1142" height="86" key="GridCell.Tab.3.center/0.0.1366.768@0.0.1366.768" timestamp="1594890206958" />
+    <state width="1142" height="86" key="GridCell.Tab.3.left" timestamp="1594890206958">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1143" height="191" key="GridCell.Tab.3.left/0.0.1366.738@0.0.1366.738" timestamp="1592923129490" />
+    <state width="1142" height="86" key="GridCell.Tab.3.left/0.0.1366.768@0.0.1366.768" timestamp="1594890206958" />
+    <state width="1142" height="86" key="GridCell.Tab.3.right" timestamp="1594890206958">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1143" height="191" key="GridCell.Tab.3.right/0.0.1366.738@0.0.1366.738" timestamp="1592923129490" />
+    <state width="1142" height="86" key="GridCell.Tab.3.right/0.0.1366.768@0.0.1366.768" timestamp="1594890206958" />
+    <state x="324" y="0" width="879" height="738" key="SettingsEditor" timestamp="1592807312491">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="324" y="0" width="879" height="738" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1592807312491" />
+    <state width="691" height="377" key="XDebugger.FullValuePopup" timestamp="1592708381204">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="691" height="377" key="XDebugger.FullValuePopup/0.0.1366.738@0.0.1366.738" timestamp="1592708381204" />
+    <state x="454" y="72" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592886404774">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="454" y="72" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.738@0.0.1366.738" timestamp="1592886404774" />
+    <state x="290" y="69" width="786" height="600" key="find.popup" timestamp="1592558489700">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="290" y="69" width="786" height="600" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1592558489700" />
+    <state x="57" y="88" key="new project wizard" timestamp="1594890204731">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="57" y="88" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1594890204731" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1592885456476">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1592885456476" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1592888697467">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1592888697467" />
+  </component>
+</project>

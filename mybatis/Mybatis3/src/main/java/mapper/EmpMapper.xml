@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--将接口与XML文件绑定-->
+<mapper namespace="mapper.EmpMapper">
+    <!--<select id="findAllEmp" parameterType="bean.EmpInfo" resultType="bean.EmpInfo">-->
+        <!--select * from  emp where-->
+        <!--sal>#{sal}-->
+        <!--<if test="job!=null">-->
+            <!--and job=#{job}-->
+        <!--</if>-->
+    <!--</select>-->
+    <!--<select id="findAllEmp" parameterType="bean.EmpInfo" resultType="bean.EmpInfo">-->
+        <!--select * from  emp-->
+        <!--<where>-->
+        <!--<if test="job!=null">-->
+        <!--and job=#{job}-->
+        <!--</if>-->
+        <!--and sal>#{sal}-->
+        <!--</where>-->
+
+    <!--</select>-->
+
+    <select id="findAllEmp2" parameterType="java.util.Map" resultType="bean.EmpInfo">
+        select * from emp
+        <where>
+            <choose>
+                <when test="id==1">
+                    and job='CLERK'
+                </when>
+                <when test="id==2">
+                     and job='SALESMAN'
+                </when>
+                <otherwise>
+                    and job='MANAGER'
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+    <update id="updateEmp" parameterType="bean.EmpInfo">
+        update emp
+        <set>
+          <if test="enName!=null">
+              ename=#{eName}
+          </if>
+            <if test="job!=null">
+                job=#{job}
+            </if>
+            <if test="mgr!=null">
+                mgr=#{mgr}
+            </if>
+            <if test="hireDate!=null">
+                hireDate=#{hireDate}
+            </if>
+            <if test="sal!=null">
+                sal=#{sal}
+            </if>
+            <if test="comm!=null">
+                comm=#{comm}
+            </if>
+            <if test="deptNo!=null">
+                deptNo=#{deptNo}
+            </if>
+        </set>
+        where empno=#{empNo}
+    </update>
+
+    <select id="findEmp" parameterType="bean.EmpInfo" resultType="bean.EmpInfo">
+        select * from emp
+        <where>
+            <if test="list!=null">
+                job in
+                <foreach collection="list" index="i" item="obj" open="(" close=")" separator=",">
+                    #{obj}
+                </foreach>
+            </if>
+        </where>
+    </select>
+
+</mapper>

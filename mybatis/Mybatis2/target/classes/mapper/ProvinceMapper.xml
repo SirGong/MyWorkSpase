@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--将接口与XML文件绑定-->
+<mapper namespace="mapper.ProvinceMapper">
+    <resultMap id="map3" type="bean.ProvinceInfo">
+        <id column="id" property="id"/>
+        <result column="provinceId" property="provinceId"/>
+        <result column="province" property="province"/>
+
+        <collection property="citySet" column="provinceId" ofType="bean.CityInfo">
+            <id column="id" property="id"/>
+            <result property="cityId" column="cityId"/>
+            <result property="city" column="city"/>
+            <result property="provinceId" column="provinceId"/>
+        </collection>
+
+    </resultMap>
+    <select id="findAllProvince" resultMap="map3">
+        SELECT
+        p.id AS pid ,
+        p.provinceid AS ppid ,
+        province ,
+        c.id AS cid ,
+        cityid,   city ,
+        c.provinceid AS cpid
+        FROM provinces p,cities c WHERE p.provinceid=c.provinceid;
+    </select>
+</mapper>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $.get("prov",function(data){
+                for(var i=0;i<data.length;i++){
+                    var obj = data[i];
+                    var childStr = "<option value='"+obj.id+"'>"+obj.name;
+                    $("#select1").append(childStr);
+                }
+            })
+        })
+
+        function getCity(){
+            var selectedNo = $(":selected").eq(0).val();
+            $.post("prov",{"id":selectedNo},function(data){
+                $("#select2").empty();
+                for(var i=0;i<data.length;i++){
+                    var obj = data[i];
+                    var childStr = "<option value='"+obj.id+"'>"+obj.name;
+                    $("#select2").append(childStr);
+                }
+            })
+        }
+    </script>
+
+</head>
+<body>
+<select id="select1" onchange="getCity()"></select>
+<select id="select2"></select>
+</body>
+</html>

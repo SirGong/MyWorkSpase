@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd3cd139-574b-440b-b0eb-80adf0b14ebe" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db5@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db5@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db5@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db5: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db5@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db5: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\Repository" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fD6xFX2FwFj2RITOGkhwgx2WcE" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springMVC" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.xzy.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SSM\springTransaction\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AppTest.test2">
+    <configuration name="AppTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springTransaction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springTransaction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springTransaction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppTest.test2" />
+        <item itemvalue="JUnit.AppTest.test3" />
+        <item itemvalue="JUnit.AppTest.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd3cd139-574b-440b-b0eb-80adf0b14ebe" name="Default Changelist" comment="" />
+      <created>1595740560562</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595740560562</updated>
+      <workItem from="1595740566361" duration="16125000" />
+      <workItem from="1595938720788" duration="777000" />
+      <workItem from="1596025489802" duration="1266000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595742554159">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1595742554159" />
+    <state x="488" y="102" key="#com.intellij.ide.util.MemberChooser" timestamp="1595745136290">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="488" y="102" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1595745136290" />
+    <state x="463" y="141" key="FileChooserDialogImpl" timestamp="1596025574651">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="141" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1596025574651" />
+    <state width="1323" height="148" key="GridCell.Tab.0.bottom" timestamp="1595777760542">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="148" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595777760542" />
+    <state width="1323" height="148" key="GridCell.Tab.0.center" timestamp="1595777760542">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="148" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595777760542" />
+    <state width="1323" height="148" key="GridCell.Tab.0.left" timestamp="1595777760542">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="148" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595777760542" />
+    <state width="1323" height="148" key="GridCell.Tab.0.right" timestamp="1595777760542">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="148" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595777760542" />
+    <state width="1323" height="148" key="GridCell.Tab.1.bottom" timestamp="1595777760543">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="148" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595777760543" />
+    <state width="1323" height="148" key="GridCell.Tab.1.center" timestamp="1595777760543">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="148" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1595777760543" />
+    <state width="1323" height="148" key="GridCell.Tab.1.left" timestamp="1595777760543">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="148" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1595777760543" />
+    <state width="1323" height="148" key="GridCell.Tab.1.right" timestamp="1595777760543">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="148" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1595777760543" />
+    <state x="454" y="90" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595772389838">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="454" y="90" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.768@0.0.1366.768" timestamp="1595772389838" />
+    <state x="0" y="81" key="new project wizard" timestamp="1595938823782">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="0" y="81" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1595938823782" />
+  </component>
+</project>

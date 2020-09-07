@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--将接口与XML文件绑定-->
+<mapper namespace="mapper.EmpMapper">
+    <!--<select id="findAllEmp" parameterType="bean.EmpInfo" resultType="bean.EmpInfo">-->
+        <!--select * from  emp where-->
+        <!--sal>#{sal}-->
+        <!--<if test="job!=null">-->
+            <!--and job=#{job}-->
+        <!--</if>-->
+    <!--</select>-->
+    <!--<select id="findAllEmp" parameterType="bean.EmpInfo" resultType="bean.EmpInfo">-->
+        <!--select * from  emp-->
+        <!--<where>-->
+        <!--<if test="job!=null">-->
+        <!--and job=#{job}-->
+        <!--</if>-->
+        <!--and sal>#{sal}-->
+        <!--</where>-->
+
+    <!--</select>-->
+
+    <select id="findAllEmp2" parameterType="j" resultType="bean.EmpInfo">
+        select * from emp
+        <where>
+            <choose>
+                <when test="id==1">
+                    and job='CLERK'
+                </when>
+                <when test="id==2">
+                     and job='SALESMAN'
+                </when>
+                <otherwise>
+                    and job='MANAGER'
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+</mapper>

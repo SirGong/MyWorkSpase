@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="com.xzy.Car" id="car01">
+        <property name="carName" value="宝马"/>
+        <property name="carColor" value="绿色"/>
+    </bean>
+    <bean id="person01" class="com.xzy.Person">
+        <property name="name" >
+            <!--手动对属性进行赋值-->
+            <null/>
+        </property>
+        <!--对其它对象进行赋值 使用引用容器中已经有的组件-->
+        <!--<property name="car" ref="car01"/>-->
+
+        <property name="car">
+            <!--在property内部创建bean标签进行创建对象-->
+            <bean id="car" class="com.xzy.Car">
+                <property name="carName" value="mini"/>
+                <property name="carColor" value="red"/>
+            </bean>
+        </property>
+    </bean>
+
+    <bean id="book01" class="com.xzy.Book">
+        <property name="name" value="东游记"/>
+    </bean>
+    <bean id="person02" class="com.xzy.Person">
+        <property name="books">
+            <list>
+                <!--引用内部创建的bean-->
+                <bean class="com.xzy.Book">
+                    <property name="name" value="西游记"/>
+                </bean>
+                <!--引用外部创建的bean-->
+                <ref bean="book01"/>
+            </list>
+        </property>
+
+        <property name="maps">
+            <map>
+                <!--为Map属性赋值-->
+                <entry key="key1" value="Tom"/>
+                <entry key="ker2" value-ref="book01"/>
+                <entry key="key3">
+                    <bean class="com.xzy.Car">
+                        <property name="carName" value="公交车"/>
+                    </bean>
+                </entry>
+            </map>
+        </property>
+    </bean>
+
+
+</beans>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--将接口与XML文件绑定-->
+<mapper namespace="mapper.User2Mapper">
+  <select id="find1" resultType="bean.UserInfo2">
+      select * from userinfo
+  </select>
+
+    <resultMap id="map1" type="bean.UserInfo2">
+        <id property="id" column="userid"></id>
+        <result property="name" column="username"></result>
+        <result property="sex" column="usersex"></result>
+        <result property="age" column="userage"></result>
+        <result property="address" column="useraddress"></result>
+    </resultMap>
+    <select id="find2" resultMap="map1">
+        select  * from userinfo
+    </select>
+
+</mapper>

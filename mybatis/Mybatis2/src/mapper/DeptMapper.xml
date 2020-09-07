@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--将接口与XML文件绑定-->
+<mapper namespace="mapper.DeptMapper">
+    <resultMap id="map2" type="bean.DeptInfo">
+        <id column="deptNo" property="deptNo"/>
+        <result column="dname" property="dname"/>
+        <result column="loc" property="loc"/>
+        <!--描述一对多关系-->
+        <collection property="empSet" ofType="bean.EmpInfo" column="deptNo">
+            <id column="empNo" property="empNo"/>
+            <result column="ename" property="ename"/>
+            <result column="mgr" property="mgr"/>
+            <result column="hirDate" property="hirDate"/>
+            <result column="sal" property="sal"/>
+            <result column="comm" property="comm"/>
+            <result column="deptNo" property="deptNo"/>
+        </collection>
+
+    </resultMap>
+
+    <select id="findByDeptNo" parameterType="int" resultMap="map2">
+        select * from  emp e ,dept  d  where d.deptNo=#{deptNo}  and e.deptno=d.deptno
+    </select>
+
+</mapper>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--注册一个Person对象,一个bean注册一个组件-->
+    <!--id为组件的唯一标识-->
+    <bean id="person01" class="com.xzy.Person">
+        <!--property是调用setter方法进行赋值-->
+        <property name="name" value="张三"/>
+        <property name="age" value="20"/>
+        <property name="gender" value="男"/>
+        <property name="email" value="zhangsan@163.com"/>
+    </bean>
+<!--    <bean id="person02" class="com.xzy.Person">
+        <property name="name" value="李四"/>
+        <property name="age" value="26"/>
+    </bean>
+-->
+    <!--必须有这个构造器， 调用有参构造器进行赋值 如果不指定name属性，就得按照构造器的参数顺序 也可以通过index指定索引-->
+<!--    <bean id="person03" class="com.xzy.Person">
+        <constructor-arg name="name" value="Tom"/>
+        <constructor-arg name="age" value="15"/>
+        <constructor-arg name="gender" value="man"/>
+        <constructor-arg name="email" value="Tom@qq.com"/>
+    </bean>
+-->
+
+    <!--通过P名称空间为属性赋值，xml中名称空间用来防止标签重复-->
+    <bean id="person04" class="com.xzy.Person"
+          p:name="名称空间"
+          p:gender="no"
+          p:age="1000"
+          p:email="hello@163.com">
+
+    </bean>
+
+
+
+</beans>

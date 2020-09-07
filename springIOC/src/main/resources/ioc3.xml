@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--引入外部的配置文件-->
+    <context:property-placeholder location="classpath:jdbcConfig.properties"/>
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <!--直接写配置文件-->
+        <!--<property name="user" value="root"/>
+        <property name="password" value="0317gjj"/>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/db5?characterEncoding=UTF8&amp;useSSL=false&amp;serverTimezone=UTC&amp;rewriteBatchedStatements=true"/>
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>-->
+        <!--读取外部配置文件-->
+        <property name="user" value="${user}"/>
+        <property name="password" value="${password}"/>
+        <property name="jdbcUrl" value="${jdbcUrl}"/>
+        <property name="driverClass" value="${driverClass}"/>
+
+     </bean>
+</beans>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fdf1a76c-eb18-44bc-8bf6-1ab9d86268d1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aHmJu7RPHpPprxDMJ7OuOGwGEt" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager" selected="Application.Graph">
+    <configuration name="AVLTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="avltree.AVLTreeTest" />
+      <module name="DataStruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="avltree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySortTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysorttree.BinarySortTreeTest" />
+      <module name="DataStruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binarysorttree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreatHuffmanTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="huffmanTree.CreatHuffmanTree" />
+      <module name="DataStruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="huffmanTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.Graph" />
+      <module name="DataStruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HuffmanCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="huffmanCode.HuffmanCode" />
+      <module name="DataStruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="huffmanCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CreatHuffmanTree" />
+      <item itemvalue="Application.HuffmanCode" />
+      <item itemvalue="Application.BinarySortTreeTest" />
+      <item itemvalue="Application.AVLTreeTest" />
+      <item itemvalue="Application.Graph" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Graph" />
+        <item itemvalue="Application.AVLTreeTest" />
+        <item itemvalue="Application.BinarySortTreeTest" />
+        <item itemvalue="Application.HuffmanCode" />
+        <item itemvalue="Application.CreatHuffmanTree" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdf1a76c-eb18-44bc-8bf6-1ab9d86268d1" name="Default Changelist" comment="" />
+      <created>1586400824535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586400824535</updated>
+      <workItem from="1586400826805" duration="3444000" />
+      <workItem from="1590411099338" duration="107485000" />
+      <workItem from="1591326819664" duration="41390000" />
+      <workItem from="1591678967112" duration="12763000" />
+      <workItem from="1591852126997" duration="6854000" />
+      <workItem from="1591878988739" duration="13564000" />
+      <workItem from="1592054216712" duration="171000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1591934744297">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1591934744297" />
+    <state x="462" y="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1591020059524">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="462" y="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.738@0.0.1366.738" timestamp="1591020059524" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1592054368732">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1592054368732" />
+    <state width="1323" height="310" key="GridCell.Tab.0.bottom" timestamp="1591961471413">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="310" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1591961471413" />
+    <state width="1323" height="310" key="GridCell.Tab.0.center" timestamp="1591961471411">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="310" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1591961471411" />
+    <state width="1323" height="310" key="GridCell.Tab.0.left" timestamp="1591961471408">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="310" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1591961471408" />
+    <state width="1323" height="310" key="GridCell.Tab.0.right" timestamp="1591961471412">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="310" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1591961471412" />
+    <state width="1323" height="240" key="GridCell.Tab.1.bottom" timestamp="1591716092943">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="240" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1591716092943" />
+    <state width="1323" height="240" key="GridCell.Tab.1.center" timestamp="1591716092942">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="240" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1591716092942" />
+    <state width="1323" height="240" key="GridCell.Tab.1.left" timestamp="1591716092942">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="240" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1591716092942" />
+    <state width="1323" height="240" key="GridCell.Tab.1.right" timestamp="1591716092942">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="240" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1591716092942" />
+    <state x="184" y="11" key="SettingsEditor" timestamp="1590748163117">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1590748163117" />
+    <state x="234" y="105" width="897" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1591443129224">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="234" y="105" width="897" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.738@0.0.1366.738" timestamp="1591443129224" />
+    <state x="290" y="69" width="786" height="600" key="find.popup" timestamp="1591440746620">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="290" y="69" width="786" height="600" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1591440746620" />
+    <state x="57" y="0" key="new project wizard" timestamp="1592054411119">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="57" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1592054411119" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1591371524750">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1591371524750" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1591611488102">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1591611488102" />
+  </component>
+</project>

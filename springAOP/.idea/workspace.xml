@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5214cf6a-e02a-400d-9b27-c471284281ff" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\Repository" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fBLl0EJRICztDK2q6iV9yby62p" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="JUnit.CalculatorImplTest.test01">
+    <configuration name="CalculatorImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springAOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CalculatorImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorImplTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springAOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CalculatorImplTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="calTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springAOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xzy.test1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xzy.test1" />
+      <option name="MAIN_CLASS_NAME" value="com.xzy.test1.calTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculatorImplTest.test01" />
+        <item itemvalue="JUnit.calTest.test01" />
+        <item itemvalue="JUnit.CalculatorImplTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5214cf6a-e02a-400d-9b27-c471284281ff" name="Default Changelist" comment="" />
+      <created>1595686685870</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595686685870</updated>
+      <workItem from="1595686689990" duration="10084000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="95" key="#com.intellij.ide.util.MemberChooser" timestamp="1595687136805">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="488" y="95" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1595687136805" />
+    <state x="220" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595690326264">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="220" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.768@0.0.1366.768" timestamp="1595690326264" />
+    <state x="259" y="17" key="#com.xzy.test_in_springAOP" timestamp="1595687399107">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="259" y="17" key="#com.xzy.test_in_springAOP/0.0.1366.768@0.0.1366.768" timestamp="1595687399107" />
+    <state width="1323" height="296" key="GridCell.Tab.0.bottom" timestamp="1595740509893">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="296" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595740509893" />
+    <state width="1323" height="296" key="GridCell.Tab.0.center" timestamp="1595740509892">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="296" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595740509892" />
+    <state width="1323" height="296" key="GridCell.Tab.0.left" timestamp="1595740509892">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="296" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595740509892" />
+    <state width="1323" height="296" key="GridCell.Tab.0.right" timestamp="1595740509892">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="296" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595740509892" />
+    <state x="213" y="41" key="Maven.ArtifactSearchDialog" timestamp="1595690809759">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="213" y="41" key="Maven.ArtifactSearchDialog/0.0.1366.768@0.0.1366.768" timestamp="1595690809759" />
+  </component>
+</project>

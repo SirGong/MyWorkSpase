@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--包扫描-->
+    <context:component-scan base-package="com.xzy"></context:component-scan>
+
+    <!--开启基于注解的功能 ,自动代理-->
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+
+    <!--将组件加入到IOC容器中-->
+    <bean id="calculator" class="com.xzy.impl.CalculatorImpl"/>
+    <bean class="com.xzy.utils.LogUtils" id="logUtils2"/>
+
+    <!--配置切面-->
+    <aop:config>
+        <aop:aspect ref="logUtils">
+            <aop:pointcut id="pointCut" expression="execution(public int com.xzy.impl.CalculatorImpl.*(int,int))"/>
+            <!--配置那个方法是前置通知-->
+            <aop:before method="logStart" pointcut="execution(public int com.xzy.impl.CalculatorImpl.*(int,int))"/>
+            <!--引用切入点表达式-->
+            <aop:after method="logEnd" pointcut-ref="pointCut"/>
+            <!--返回值和异常都是需要接受的-->
+            <aop:after-returning method="logReturn" pointcut-ref="pointCut" returning="result"/>
+            <aop:after-throwing method="logException" pointcut-ref="pointCut" throwing="exception"/>
+            <!--其他配置是一样的-->
+        </aop:aspect>
+    </aop:config>
+
+</beans>

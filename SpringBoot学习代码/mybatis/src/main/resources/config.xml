@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <!--控制台输出SQL语句-->
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC" />
+            <!-- 配置数据库连接信息 -->
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver" />
+                <property name="url" value="jdbc:mysql://localhost:3306/db5?characterEncoding=UTF8&amp;useSSL=false&amp;serverTimezone=UTC&amp;rewriteBatchedStatements=true"/>
+                <property name="username" value="root" />
+                <property name="password" value="0317gjj" />
+            </dataSource>
+        </environment>
+    </environments>
+<!--    <databaseIdProvider type="DB_VENDOR" >-->
+<!--        <property name="MySQL" value="mysql"/>-->
+<!--    </databaseIdProvider>-->
+    <!--通过config.xml文件与对应的文件绑定-->
+<!--   resources:在类路径下找xml文件
+        class：在接口同包下找
+        -->
+    <mappers>
+        <mapper resource="dao/UserInfoMapper.xml"/>
+    </mappers>
+
+</configuration>

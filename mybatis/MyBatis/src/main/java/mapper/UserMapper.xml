@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--将接口与XML文件绑定-->
+<mapper namespace="mapper.UserMapper">
+    <!--
+        id：当前的编号，同方法名绑定（在一个项目中不允许出现重复的方法名，不支持方法重载）
+        resultType:返回结果
+        parameterType:形式参数列表（只支持一个参数）
+    -->
+    <!--将select块与findAllUser()绑定，结果集是一个bean包中的UserInfo类-->
+    <select id="findAllUser" resultType="bean.UserInfo">
+        select * from userinfo where userState=1
+    </select>
+    <delete id="deleteUser" parameterType="int">
+        update userinfo set userstate=0 where userid=#{userId}
+    </delete>
+    <insert id="saveUser" parameterType="bean.UserInfo">
+        insert into userinfo values (null,#{userName},'${userSex}',${userAge},#{userAddress},md5(#{userPass}),1)
+    </insert>
+    <update id="updateUser" parameterType="bean.UserInfo">
+        update userinfo set userName=#{userName},userSex=#{userSex},userAge=#{userAge},userAddress=#{userAddress} where userId=#{userId}
+    </update>
+    <select id="findUser1" parameterType="java.lang.Integer" resultType="bean.UserInfo">
+        select * from userinfo limit #{page},${size}
+    </select>
+    <select id="findUser2" parameterType="bean.PageInfo" resultType="bean.UserInfo">
+        select * from userinfo limit #{page},${size}
+    </select>
+    <select id="searchUser"  parameterType="java.lang.String" resultType="bean.UserInfo">
+        select * from userinfo where username like #{name}
+    </select>
+    <select id="findByUserId"  parameterType="int" resultType="bean.UserInfo">
+        select * from userinfo where userid=#{userId}
+    </select>
+
+</mapper>
