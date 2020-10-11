@@ -14,7 +14,7 @@ public class Consumer extends Thread {
                     TestPC.queue.poll();
                     System.out.println(Thread.currentThread().getName()+"消费商品");
                 }else {
-                    //唤醒生产者继续生产
+                    //唤醒生产者（等待的线程）继续生产
                     TestPC.queue.notify();
                 }
             }
